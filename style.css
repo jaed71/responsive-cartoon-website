@@ -556,3 +556,19 @@ font-weight: 700;
 
 
 }
+@media screen and (min-width:1200px) and (max-width:1440px)
+{
+    .sixth{
+        flex-direction: column;
+    }
+    .sixth1{
+        width: 80%; 
+        text-align: center;
+        margin: 0 auto;
+        }
+       .sixth2, .sixth2 img{
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+}
